@@ -1,0 +1,12 @@
+<Files "lookuphash.db">
+        Order Deny,Allow
+        Deny from all
+        Allow from localhost
+        Allow from 127.0.0.1
+</Files>
+<Files "all_files">
+        Order Deny,Allow
+        Deny from all
+        Allow from localhost
+        Allow from 127.0.0.1
+</Files>
